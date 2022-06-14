@@ -1,7 +1,7 @@
 import { c as create_ssr_component, a as add_attribute, v as validate_component, e as escape } from "../../chunks/index-2835083a.js";
 var slotMachine_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: ".slotMachine.svelte-13nv9bo{height:630px}.slot.svelte-13nv9bo{height:200px;width:200px}.slotColumn.svelte-13nv9bo{transition:transform 1s}",
+  code: ".slotMachine.svelte-1k21uww{height:630px}.slot.svelte-1k21uww{height:200px;width:200px}.slotColumn.svelte-1k21uww{transition:transform 1s}",
   map: null
 };
 const SlotMachine = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -21,30 +21,30 @@ const SlotMachine = create_ssr_component(($$result, $$props, $$bindings, slots) 
   let currentSlotRows2 = [slotGame.GetRandomSlot(), slotGame.GetRandomSlot(), slotGame.GetRandomSlot()];
   let currentSlotRows3 = [slotGame.GetRandomSlot(), slotGame.GetRandomSlot(), slotGame.GetRandomSlot()];
   $$result.css.add(css$1);
-  return `<div id="${"content"}" class="${"flex flex-col items-center p-4"}"><div class="${"flex flex-row gap-4 bg-accent p-4 w-max slotMachine svelte-13nv9bo"}"><div class="${"flex flex-col overflow-hidden"}"><div id="${"slotColumn0"}" class="${"slotColumn svelte-13nv9bo"}"><img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows1[0], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows2[0], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows3[0], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[0], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[1], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[2], 0)} alt="${""}"></div></div>
-        <div class="${"flex flex-col overflow-hidden"}"><div id="${"slotColumn1"}" class="${"slotColumn svelte-13nv9bo"}"><img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows1[1], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows2[1], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows3[1], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[3], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[4], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[5], 0)} alt="${""}"></div></div>
-        <div class="${"flex flex-col overflow-hidden"}"><div id="${"slotColumn2"}" class="${"slotColumn svelte-13nv9bo"}"><img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows1[2], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows2[2], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", currentSlotRows3[2], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[6], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[7], 0)} alt="${""}">
-                <img class="${"slot svelte-13nv9bo"}"${add_attribute("src", fillerSlotRows[8], 0)} alt="${""}"></div></div></div>
+  return `<div id="${"content"}" class="${"flex flex-col items-center p-4"}"><div class="${"flex flex-row gap-4 bg-accent p-4 w-max slotMachine svelte-1k21uww"}"><div class="${"flex flex-col overflow-hidden"}"><div id="${"slotColumn0"}" class="${"slotColumn svelte-1k21uww"}"><img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows1[0], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows2[0], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows3[0], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[0], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[1], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[2], 0)} alt="${""}"></div></div>
+        <div class="${"flex flex-col overflow-hidden"}"><div id="${"slotColumn1"}" class="${"slotColumn svelte-1k21uww"}"><img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows1[1], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows2[1], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows3[1], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[3], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[4], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[5], 0)} alt="${""}"></div></div>
+        <div class="${"flex flex-col overflow-hidden"}"><div id="${"slotColumn2"}" class="${"slotColumn svelte-1k21uww"}"><img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows1[2], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows2[2], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", currentSlotRows3[2], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[6], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[7], 0)} alt="${""}">
+                <img class="${"slot svelte-1k21uww"}"${add_attribute("src", fillerSlotRows[8], 0)} alt="${""}"></div></div></div>
     <button class="${"btn w-full"}">Spin</button>
 </div>`;
 });
 var slot_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "@media only screen and (max-width: 1000px){#content.svelte-1hq855z{display:flex;flex-direction:column}}",
+  code: "@media only screen and (max-width: 1000px){#content.svelte-165m00j{display:flex;flex-direction:column}}",
   map: null
 };
 const Slot_1 = create_ssr_component(($$result, $$props, $$bindings, slots$1) => {
@@ -54,7 +54,7 @@ const Slot_1 = create_ssr_component(($$result, $$props, $$bindings, slots$1) => 
 
 
 
-<div class="${"flex flex-col items-center"}"><div id="${"content"}" class="${"flex flex-row svelte-1hq855z"}"><div class="${"flex flex-col items-center"}">${validate_component(SlotMachine, "SlotMachine").$$render($$result, {}, {}, {})}</div>
+<div class="${"flex flex-col items-center"}"><div id="${"content"}" class="${"flex flex-row svelte-165m00j"}"><div class="${"flex flex-col items-center"}">${validate_component(SlotMachine, "SlotMachine").$$render($$result, {}, {}, {})}</div>
         <div class="${"flex flex-col gap-4 p-4"}"><h1 class="${"text-5xl"}">${escape(slots.slotName)}</h1>
             <div><h2 class="${"text-2xl"}">Description</h2>
                 <p>${escape(slots.description)}<br>Get three in a row horizontally or vertically.</p>
